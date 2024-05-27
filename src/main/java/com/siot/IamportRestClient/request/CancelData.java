@@ -87,4 +87,8 @@ public class CancelData {
 	public void setExtra(ExtraRequesterEntry extra) {
 		this.extra = extra;
 	}
+
+	public void setAmount(BigDecimal amount) {
+		this.amount = amount;
+	}
 }
